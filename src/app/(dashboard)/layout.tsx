@@ -27,7 +27,7 @@ export default function DashboardLayout({
             />
           </div>
           {/* Text (Hidden on smaller screens) */}
-          <span className="hidden lg:block">Pascal info</span>
+          <span className="hidden lg:block font-bold">Pascal info</span>
         </Link>
         <Menu />
       </div>
