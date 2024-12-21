@@ -9,10 +9,128 @@
 }
 
 .react-calendar__navigation__label__labelText {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .react-calendar__tile--active {
   background-color: #7ccffa !important;
   color: black !important;
+}
+
+.rbc-btn-group:first-child {
+  display: none !important;
+}
+
+.rbc-toolbar-label {
+  text-align: right !important;
+  padding: 0px 20px !important;
+}
+
+.rbc-btn-group:last-child {
+  font-size: 13px !important;
+}
+
+.rbc-btn-group:last-child button {
+  border: none !important;
+  background-color: #ddd9ff !important;
+  margin-left: 2px !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #a5a3ff !important;
+}
+
+.rbc-time-view {
+  border-color: #eee !important;
+}
+
+.rbc-time-header {
+  display: none !important;
+}
+
+.rbc-time-content {
+  border: none !important;
+}
+
+.rbc-time-gutter.rbc-time-column {
+  font-size: 12px !important;
+}
+
+.rbc-time-gutter.rbc-time-column.rbc-timeslot-group {
+  padding: 0px 20px !important;
+}
+
+.rbc-timeslot-group {
+  background-color: #f7fdff !important;
+}
+
+.rbc-day-slot {
+  font-size: 14px !important;
+}
+
+.rbc-event {
+  border: none !important;
+  color: black !important;
+  padding: 10px !important;
+  margin: 10px !important;
+  width: 99% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.rbc-event-label {
+  color: gray !important;
+  margin-bottom: 5px !important;
+  width: 100%;
+  text-align: left; /* Keeps the time aligned to the left at the top */
+}
+
+.rbc-event-content {
+  color: black !important;
+  font-size: 14px !important;
+  margin-top: 5px; /* Adds spacing between the time and event name */
+}
+
+/* Event Colors */
+.rbc-event:nth-child(1) {
+  background-color: #dcf2ff !important;
+}
+
+.rbc-event:nth-child(2) {
+  background-color: #fff6d4 !important;
+}
+
+.rbc-event:nth-child(3) {
+  background-color: #fdd8d8 !important;
+}
+
+.rbc-event:nth-child(4) {
+  background-color: #ddf6e5 !important;
+}
+
+.rbc-event:nth-child(5) {
+  background-color: #f9d7ff !important;
+}
+
+.rbc-event:nth-child(6) {
+  background-color: #ffe4da !important;
+}
+
+.rbc-event:nth-child(7) {
+  background-color: #d8f3ff !important;
+}
+
+.rbc-event:nth-child(8) {
+  background-color: #ffe9f5 !important;
+}
+
+.rbc-event:nth-child(9) {
+  background-color: #e9ffdc !important;
+}
+
+.rbc-event:nth-child(10) {
+  background-color: #f4efff !important;
 }

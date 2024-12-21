@@ -30,6 +30,7 @@ const config: Config = {
         pascalPink: "#F9C6D3",
         pascalBlueLight: "#B8E3FF",
         pascalYellowLight: "#FDF1A8",
+        pascalPurpleLight: "#DDD9FF",
       },
     },
   },
