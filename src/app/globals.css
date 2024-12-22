@@ -24,6 +24,8 @@
 .rbc-toolbar-label {
   text-align: right !important;
   padding: 0px 20px !important;
+  font-size: 16px !important;
+  font-weight: 500;
 }
 
 .rbc-btn-group:last-child {
@@ -34,10 +36,12 @@
   border: none !important;
   background-color: #ddd9ff !important;
   margin-left: 2px !important;
+  padding: 6px 12px !important;
 }
 
 .rbc-toolbar button.rbc-active {
   background-color: #a5a3ff !important;
+  color: white !important;
 }
 
 .rbc-time-view {
@@ -54,13 +58,11 @@
 
 .rbc-time-gutter.rbc-time-column {
   font-size: 12px !important;
-}
-
-.rbc-time-gutter.rbc-time-column.rbc-timeslot-group {
-  padding: 0px 20px !important;
+  padding: 0 10px !important;
 }
 
 .rbc-timeslot-group {
+  min-height: 80px !important; /* Increase slot height */
   background-color: #f7fdff !important;
 }
 
@@ -68,69 +70,61 @@
   font-size: 14px !important;
 }
 
+.rbc-events-container {
+  margin-right: 0 !important;
+}
 .rbc-event {
   border: none !important;
-  color: black !important;
-  padding: 10px !important;
-  margin: 10px !important;
-  width: 99% !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-}
-
-.rbc-event-label {
-  color: gray !important;
-  margin-bottom: 5px !important;
-  width: 100%;
-  text-align: left; /* Keeps the time aligned to the left at the top */
+  padding: 4px 8px !important;
+  margin: 1px !important;
+  min-height: 40px !important;
+  width: calc(100% - 2px) !important;
+  position: relative !important;
+  text-align: center !important; /* Center all text in event */
 }
 
 .rbc-event-content {
-  color: black !important;
-  font-size: 14px !important;
-  margin-top: 5px; /* Adds spacing between the time and event name */
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important; /* Center content horizontally */
+  color: #333 !important; /* Dark gray, almost black text for content */
+  font-weight: 600 !important; /* Make content semi-bold */
 }
 
-/* Event Colors */
+.rbc-event-label {
+  font-size: 11px !important;
+  margin-bottom: 2px !important;
+  color: #666 !important; /* Medium gray for time labels */
+  width: 100% !important; /* Ensure label takes full width */
+  text-align: center !important; /* Center time label */
+}
+
+/* Event Colors with better contrast */
 .rbc-event:nth-child(1) {
-  background-color: #dcf2ff !important;
+  background-color: rgba(220, 242, 255, 0.9) !important;
+  color: #333 !important; /* Ensuring text color is dark */
 }
 
 .rbc-event:nth-child(2) {
-  background-color: #fff6d4 !important;
+  background-color: rgba(255, 246, 212, 0.9) !important;
+  color: #333 !important;
 }
 
 .rbc-event:nth-child(3) {
-  background-color: #fdd8d8 !important;
+  background-color: rgba(253, 216, 216, 0.9) !important;
+  color: #333 !important;
 }
 
 .rbc-event:nth-child(4) {
-  background-color: #ddf6e5 !important;
+  background-color: rgba(221, 246, 229, 0.9) !important;
+  color: #333 !important;
 }
 
 .rbc-event:nth-child(5) {
-  background-color: #f9d7ff !important;
-}
-
-.rbc-event:nth-child(6) {
-  background-color: #ffe4da !important;
-}
-
-.rbc-event:nth-child(7) {
-  background-color: #d8f3ff !important;
-}
-
-.rbc-event:nth-child(8) {
-  background-color: #ffe9f5 !important;
-}
-
-.rbc-event:nth-child(9) {
-  background-color: #e9ffdc !important;
-}
-
-.rbc-event:nth-child(10) {
-  background-color: #f4efff !important;
+  background-color: rgba(249, 215, 255, 0.9) !important;
+  color: #333 !important;
 }
