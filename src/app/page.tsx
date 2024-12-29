@@ -84,11 +84,11 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-center mb-8">What Parents Say</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div className="p-6 rounded-lg" style={{ backgroundColor: '#F5A3A3' }}> {/* pascalRed */}
-            <p className="italic">"Pascal School has transformed my child’s future. The teachers are amazing!"</p>
+            <p className="italic">&quot;Pascal School has transformed my child’s future. The teachers are amazing!&quot;</p>
             <p className="mt-4 font-bold">— John Doe, Parent of Class 10 Student</p>
           </div>
           <div className="p-6 rounded-lg" style={{ backgroundColor: '#E8C547' }}> {/* pascalGold */}
-            <p className="italic">"The facilities and extracurricular activities are top-notch."</p>
+            <p className="italic">&quot;The facilities and extracurricular activities are top-notch.&quot;</p>
             <p className="mt-4 font-bold">— Jane Smith, Parent of Class 8 Student</p>
           </div>
         </div>
